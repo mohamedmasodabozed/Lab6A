@@ -12,7 +12,3 @@ class TestAdd(unittest.TestCase):
         self.assertEqual(addition.add(4, 3), 7)
         self.assertEqual(addition.add(2, 1), 3)
         self.assertEqual(addition.add(0, 0), 0)
-
-
-if __name__ == "__main__":
-    unittest.main()
