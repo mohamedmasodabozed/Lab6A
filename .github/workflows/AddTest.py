@@ -3,7 +3,7 @@ import unittest
 
 class Addition:
     def add(self, x, y):
-        return x + y
+        return x * y
 
 
 class TestAdd(unittest.TestCase):
