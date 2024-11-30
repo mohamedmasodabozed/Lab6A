@@ -24,4 +24,4 @@ jobs:
         run: pip install -r .github/workflows/requirements.txt
       
       - name: Run unit tests
-        run: python -m unittest AddTest
+        run: python -m unittest .github/workflows/AddTest.py
